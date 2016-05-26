@@ -21,3 +21,6 @@ validate_address_usps(username, street1, city, state)
 all(validate_address_usps(username, street1, city, state)  == validate_address_usps(username, street2, city, state))
 # TRUE
 ```
+
+More Documentation Here:
+https://www.usps.com/business/web-tools-apis/address-information-api.htm#_Toc410982986
