@@ -16,6 +16,8 @@ validate_address_usps(username, street1, city, state)
 
 #  Address.Address2       Address.City      Address.State       Address.Zip5       Address.Zip4  Address..attrs.ID 
 # "333 RASPBERRY RD"        "ANCHORAGE"               "AK"            "99518"             "1565"                "0" 
+
 # Check if two diffent Addresses resolve to the same address
 all(validate_address_usps(username, street1, city, state)  == validate_address_usps(username, street2, city, state))
+# TRUE
 ```
