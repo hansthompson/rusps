@@ -1,0 +1,10 @@
+Package: rusps
+Type: Package
+Title: Validates US addresses using the USPS api
+Version: 0.1.0
+Authors@R: person("Hans", "Thompson", email = "hans.thompson1@gmail.com", role = c("aut", "cre"))
+Description: Takes in the api username, street, city, and zip and returns a standardized address. Good for comparring addresses between datasets. 
+License: GPL3
+LazyData: TRUE
+Imports: 
+	XML
