@@ -2,8 +2,11 @@
 .Rhistory
 .Rapp.history
 
+
 # Session Data files
 .RData
+.Rproj
+.Rbuildignore
 
 # Example code in package build process
 *-Ex.R
