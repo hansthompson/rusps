@@ -6,7 +6,7 @@ Hook into the USPS api using this package!
 devtools::install_github("hansthompson/rusps")
 library(rusps)
 library(XML)
-username <- 'XXXYYYYYZZZZ' # get this at quickly by signing up at https://registration.shippingapis.com/
+username <- 'XXXYYYYYZZZZ' # get this quickly and freely by signing up at https://registration.shippingapis.com/ (not commercial).
 street1 <- '333 W raspberry road'
 street2 <- '333  raspberry rd'
 city   <- 'anchorage'
