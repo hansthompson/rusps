@@ -1,7 +1,7 @@
 # validate addresses using usps
 
 validate_address_usps <- function(street, city, state, username) {
-  library(XML)
+
   rmwac <- function(x) x[ !names(x) %in% "ReturnText"]
 
   nullToNA <- function(x) {
