@@ -12,7 +12,7 @@ street2 <- '333  raspberry rd'
 city   <- 'anchorage'
 state  <- 'ak'
 
-validate_address_usps(username = username, street = street1, sity = city, state = state) # API also takes `zipcode` but it's optional
+validate_address_usps(username = username, street = street1, city = city, state = state) # API also takes `zipcode` but it's optional
 
 #  Address.Address2       Address.City      Address.State       Address.Zip5       Address.Zip4  Address..attrs.ID 
 # "333 RASPBERRY RD"        "ANCHORAGE"               "AK"            "99518"             "1565"                "0" 
